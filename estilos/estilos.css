@@ -1,0 +1,186 @@
+/*ESTILOS GENERALES*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*ESTRUCTURA BASE*/
+body{
+    background-color: orangered;
+    background-image: url(../imagenes/fondonaranja.jpg);
+}
+header{
+    box-sizing: border-box;
+    width: 100%;
+}
+main{
+    box-sizing: border-box;
+    width: 60%;
+    float: left;
+    padding: 50px;
+
+}
+aside{
+    box-sizing: border-box;
+    width: 40%;
+    float: left;
+    padding: 15px;
+    border-left: 3px solid black;
+}
+footer{
+    box-sizing: border-box;
+    width: 100%;
+    clear: both;
+    padding: 15px;
+    text-align: center;
+    border-top: 3px solid black;
+}
+
+/*OTROS ESTILOS*/
+article{
+    box-sizing: border-box;
+    border: 1px dashed black;
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 30px 0px 30px 0px;
+    background-size: cover;
+    box-shadow: 3px 3px 3px 3px white;
+}
+div.logo_titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+h1{
+    display: inline-block;
+    margin-top: 35px;
+    margin-left: 10px;
+    color: white;
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 5px 3px orangered;
+}
+nav>ul{
+    list-style-type: none;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 7px;
+}
+nav>ul>li{
+    display: inline-block;
+    margin-left: 10px;
+}
+nav>ul>li{
+    text-decoration: none;
+    color: black;
+}
+nav>ul>li>a:hover{
+    color: black;
+    text-shadow: 2px 2px 2px white;
+}
+
+/*IMAGENES PARA FONDOS*/
+article#fondo1{
+    background-image: url(../imagenes/toilet1.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+article#fondo2{
+    background-image: url(../imagenes/asta2.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+article#fondo3{
+    background-image: url(../imagenes/diarios1.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+article#fondo4{
+    background-image: url(../imagenes/hxh.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+article#fondo5{
+    background-image: url(../imagenes/haikyu.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+article#solo{
+    background-image: url(../imagenes/solo.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+article#zenshu{
+    background-image: url(../imagenes/zenshu.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+article#stone{
+    background-image: url(../imagenes/doctor.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+article#crun{
+    background-image: url(../imagenes/fondodos.png);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+article#seccion{
+    background-image: url(../imagenes/juegos1.png);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 100px;
+}
+article#seccionn{
+    background-image: url(../imagenes/juegos2.png);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 100px;
+}
+article#seccioon{
+    background-image: url(../imagenes/juegos3.png);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 100px;
+}
+article#secciion{
+    background-image: url(../imagenes/juegos\ 4.png);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 100px;
+}
+article#pre{
+    background-image: url(../imagenes/premi.jpg);
+    background-position: center;
+    background-size: cover;
+    color: black;
+}
+article#mi{
+    background-image: url(../imagenes/premi.jpg);
+    background-position: center;
+    background-size: cover;
+    color: black;
+}article#um{
+    background-image: url(../imagenes/premi.jpg);
+    background-position: center;
+    background-size: cover;
+    color: black;
+}
